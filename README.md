@@ -19,7 +19,7 @@ D language plugin for Textadept
 * D-Scanner
 
 ## Installation
-* Download textadept-d and place the "dmd" folder in "~/.textadept/modules/" ("$HOME\.textadept\modules" on Windows)
+* Clone the repository in the textadept modules folder ("~/.textadept/modules/")
 * Download and build [DCD](https://github.com/Hackerpilot/DCD/)
 * Download and build [D-Scanner](https://github.com/Hackerpilot/Dscanner/)
 * Place the dcd-server binary on your $PATH, or edit the line in dmd/init.lua that says ```M.PATH_TO_DCD_SERVER = "dcd-server"```
